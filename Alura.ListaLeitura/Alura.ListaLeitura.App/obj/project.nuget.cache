@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bU3h9Wprfwga9Z/7smc9YXfgvXmbvb+pwHPfdqg/GZ4y1LGgugWK6yriKnqNdE+LbXaO5BDl/qr+Ev7Kh5eSBg==",
+  "success": true,
+  "projectFilePath": "D:\\Documentos\\01. cursos\\CURSOS PROJETOS\\Cursos\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
