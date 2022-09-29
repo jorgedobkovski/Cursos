@@ -221,15 +221,9 @@ Lembre-se de selecionar o pacote correto para instalar o pacote.
 
 Dessa forma o VS cria um repositório `package` no diretório da solução com os arquivos da biblioteca e adiciona o arquivo `packages.config`  no diretório do projeto, é um arquivo XML que define todas as dependências, pacotes, instalados do NuGet.
 
-![repositório `package` no diretório da solução.]
-(https://user-images.githubusercontent.com/47338154/192934467-ce2a80f1-9d3b-4b7f-af7a-f8ca109e9846.png)
-
-repositório `package` no diretório da solução.
+![repositório `package` no diretório da solução.](https://user-images.githubusercontent.com/47338154/192934467-ce2a80f1-9d3b-4b7f-af7a-f8ca109e9846.png)
 
 ![o arquivo `packages.config`  no diretório do projeto](https://user-images.githubusercontent.com/47338154/192934543-2fa8bd52-49ed-4ff2-a8a4-c63ff9eddfa5.png)
-
-
-o arquivo `packages.config`  no diretório do projeto
 
 > Agora, este arquivo que descreve as dependências do projeto, passou a integrá-lo também. Inclusive, o diretório `packages` é desnecessário. Se deletarmos essa pasta, com todas as listas de DLL que o VS fez o download; ao acessarmos o editor e executarmos o código, tudo acontecerá conforme o esperado: no console, visualizaremos a mensagem `Vencimento em 40 minutos`.
 > 
