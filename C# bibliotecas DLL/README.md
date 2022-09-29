@@ -5,13 +5,13 @@
 
 Adicione um novo projeto à aplicação, sendo ele uma Biblioteca de classes.
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled.png)
+![image](https://user-images.githubusercontent.com/47338154/192934108-0e0f3e3f-0d51-45f3-b629-793b040499c7.png)
 
 É necessário fazer os projetos se enxergarem dentro da solução.
 
 Adicionar referências:
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/47338154/192934143-b38503ee-2605-4b30-aede-1322c6f5dd39.png)
 
 Depois fazer o uso do namespace da biblioteca de classes no projeto aplicação.
 
@@ -32,7 +32,7 @@ No arquivo *.csproj* é possível ver as referências entre os projetos da solu�
 
 Além disso também é adicionado na pasta do .exe [bin > Debug] o arquivo de biblioteca .dll 
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%202.png)
+![image](https://user-images.githubusercontent.com/47338154/192934178-261e79dc-f043-4397-9164-b759f5c4bde2.png)
 
 É possível criar classes visíveis apenas dentro de um projeto da solução através do modificador de acesso `internal`. Dessa forma garantimos que apenas as classes desse projeto possam utilizar esses recursos e assim, caso seja necessário fazer alguma modificação, outros projetos não quebrem.
 
@@ -108,7 +108,7 @@ Para isso é importante criar um repositório para armazenar as versões estáve
 
 Criando um diretórios para essas bibliotecas é só referenciá-lo no projeto.
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%203.png)
+![image](https://user-images.githubusercontent.com/47338154/192934230-0c738a68-b194-4348-b749-0bddbc79fb7c.png)
 
 E então adicionar o namespace da biblioteca normalmente no projeto para usá-la.
 
@@ -164,7 +164,7 @@ Para gerar uma documentação .xml é necessário alterar a build do projeto da 
 > No "Gerenciador de Soluções", clicaremos com o mouse em `ByteBank.Modelos`e selecionaremos a opção "Propriedades". Depois, no painel que será aberto, clicaremos em "Build", encontrando diversas opções. Dentre elas, nosso interesse está na seção "Saída". Nela, vamos marcar o *check box* "Arquivo de documentação XML", o Visual Studio vai auto completar um caminho padrão para o arquivo da documentação  `bin\Debug\ByteBank.Modelos.xml`.
 > 
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%204.png)
+![image](https://user-images.githubusercontent.com/47338154/192934305-3cad0bb0-33e8-4514-b46e-f38f7889aa6f.png)
 
 Depois iremos recompilar a solução para que o Visual Studio gere o arquivo de documentação .xml no diretório. Agora é só copiar o código e colar no mesmo diretório de bibliotecas .dll estáveis que criamos anteriormente.
 
@@ -207,7 +207,7 @@ No site do NuGet encontraremos várias bibliotecas que podem ser aproveitados pe
 
 Encontraremos facilmente o link para baixar o `Humanizer.`
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%205.png)
+![image](https://user-images.githubusercontent.com/47338154/192934340-a2b40324-9220-4b27-8547-3f824e4d8a39.png)
 
 ```powershell
 Package Manager> Install-Package Humanizer -Version 2.3.3
@@ -217,15 +217,17 @@ No menu, selecionaremos "Ferramentas > Gerenciador de Pacotes do NuGet > Console
 
 Lembre-se de selecionar o pacote correto para instalar o pacote.
 
-![Untitled](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%206.png)
+![image](https://user-images.githubusercontent.com/47338154/192934384-ec232cac-63fb-4adf-97f5-069845262e61.png)
 
 Dessa forma o VS cria um repositório `package` no diretório da solução com os arquivos da biblioteca e adiciona o arquivo `packages.config`  no diretório do projeto, é um arquivo XML que define todas as dependências, pacotes, instalados do NuGet.
 
-![repositório `package` no diretório da solução.](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%207.png)
+![repositório `package` no diretório da solução.]
+(https://user-images.githubusercontent.com/47338154/192934467-ce2a80f1-9d3b-4b7f-af7a-f8ca109e9846.png)
 
 repositório `package` no diretório da solução.
 
-![o arquivo `packages.config`  no diretório do projeto](Bibliotecas%20DLL,%20documentac%CC%A7a%CC%83o%20e%20NuGet%20eee9858e8ba14536a9f72e2fd3b0c839/Untitled%208.png)
+![o arquivo `packages.config`  no diretório do projeto](https://user-images.githubusercontent.com/47338154/192934543-2fa8bd52-49ed-4ff2-a8a4-c63ff9eddfa5.png)
+
 
 o arquivo `packages.config`  no diretório do projeto
 
