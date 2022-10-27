@@ -1,0 +1,8 @@
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe.config
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.pdb
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.AssemblyReference.cache
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.SuggestedBindingRedirects.cache
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.CoreCompileInputs.cache
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.exe
+D:\Documentos\01. cursos\CURSOS PROJETOS\Cursos\C# entrada e saida com streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.pdb
