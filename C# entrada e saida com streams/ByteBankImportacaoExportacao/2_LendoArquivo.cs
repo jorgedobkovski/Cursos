@@ -10,9 +10,8 @@ namespace ByteBankImportacaoExportacao
 {
     partial class Program
     {
-        static void UsandoStreamReader()
+        static void UsarStreamReader()
         {
-
             var arquivo = "contas.txt";
             using (var fluxoDoArquivo = new FileStream(arquivo, FileMode.Open))
             using (var leitor = new StreamReader(fluxoDoArquivo))
@@ -49,6 +48,20 @@ namespace ByteBankImportacaoExportacao
             resultado.Titular = titularConta;
 
             return resultado;
+        }
+
+        static void LerArquivoBinario(string arquivo)
+        {
+            using(var fs = new FileStream(arquivo, FileMode.Open))
+            using(var sr = new BinaryReader(fs))
+            {
+                var numero = sr.ReadInt32();
+                var ag = sr.ReadInt32();
+                var saldo = sr.ReadDouble();
+                var titular = sr.ReadString();
+
+                Console.WriteLine($"{titular} : ag {ag}, numero {numero} - R$ {saldo}");
+            }
         }
 
     }

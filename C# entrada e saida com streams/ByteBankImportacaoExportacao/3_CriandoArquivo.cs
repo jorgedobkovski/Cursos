@@ -36,5 +36,39 @@ namespace ByteBankImportacaoExportacao
             Console.WriteLine("arquivo criado com writer.");
         }
 
+        static void TestarFlush()
+        {
+            var caminhoDoArquivo = "arquivoDeTeste.txt";
+            using (var fluxoDeArquivo = new FileStream(caminhoDoArquivo, FileMode.Create))
+            using (var escritor = new StreamWriter(fluxoDeArquivo))
+            {
+                for(int i = 0; i < 199; i++)
+                {
+                    escritor.WriteLine($"Linha {i}");
+
+                    escritor.Flush(); // Despeja o buffer para o Stream
+
+                    Console.WriteLine($"Linha {i} escrita no documento");
+                    Console.ReadLine();
+                }
+            }
+            Console.WriteLine("arquivo criado para teste do método flush.");
+        }
+
+        static void CriarArquivoBinario()
+        {
+            var arquivo = "dadosBinarios.txt";
+            using(var fs = new FileStream(arquivo, FileMode.Create))
+            using(var escritor = new BinaryWriter(fs))
+            {
+                escritor.Write(18236);
+                escritor.Write(102);
+                escritor.Write(1736.97);
+                escritor.Write("Fátima Terezinha");
+            }
+
+            Console.WriteLine("arquivo binário criado.");
+        }
+
     }
 }
