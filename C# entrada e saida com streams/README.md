@@ -498,7 +498,7 @@ namespace ByteBankImportacaoExportacao
 
                         fs.Write(buffer, 0, bytesLidos);
 
-												fs.Flush(); //Despeja o buffer para o Stream!
+			fs.Flush(); //Despeja o buffer para o Stream!
 
                         Console.WriteLine($"Bytes lidos na console: {bytesLidos}");
 
