@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj": {}
+    "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj": {
+    "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj",
+        "projectUniqueName": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj",
         "projectName": "Alura.LeilaoOnline.ConsoleApp",
-        "projectPath": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\obj\\",
+        "projectPath": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\Alura.LeilaoOnline.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\04880245283\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jorge Dobkovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\04880245283\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +25,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.okd.local/repository/nuget-hosted/": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
-                "projectPath": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj"
+              "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
+                "projectPath": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj"
               }
             }
           }
@@ -59,21 +63,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
+    "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
+        "projectUniqueName": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
         "projectName": "Alura.LeilaoOnline.Core",
-        "projectPath": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
-        "packagesPath": "C:\\Users\\Jorge Dobkovski\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\01. cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\obj\\",
+        "projectPath": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\Alura.LeilaoOnline.Core.csproj",
+        "packagesPath": "C:\\Users\\04880245283\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursos\\github cursos\\Cursos\\Alura.LeilaoOnline.ProjetoInicial\\Alura.LeilaoOnline.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jorge Dobkovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\04880245283\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,7 +88,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.okd.local/repository/nuget-hosted/": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
@@ -117,7 +125,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

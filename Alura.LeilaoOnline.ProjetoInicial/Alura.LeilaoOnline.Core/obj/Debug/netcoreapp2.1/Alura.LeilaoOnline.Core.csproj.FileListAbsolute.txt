@@ -18,3 +18,13 @@ D:\Documentos\01. cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOn
 D:\Documentos\01. cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.csproj.CoreCompileInputs.cache
 D:\Documentos\01. cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.dll
 D:\Documentos\01. cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.pdb
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\bin\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.deps.json
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\bin\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.dll
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\bin\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.pdb
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.csproj.AssemblyReference.cache
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.AssemblyInfoInputs.cache
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.AssemblyInfo.cs
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.csproj.CoreCompileInputs.cache
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.dll
+D:\Cursos\github cursos\Cursos\Alura.LeilaoOnline.ProjetoInicial\Alura.LeilaoOnline.Core\obj\Debug\netcoreapp2.1\Alura.LeilaoOnline.Core.pdb

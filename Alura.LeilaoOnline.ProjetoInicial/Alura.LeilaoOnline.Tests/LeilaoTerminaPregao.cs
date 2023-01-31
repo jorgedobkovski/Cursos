@@ -15,16 +15,25 @@ namespace Alura.LeilaoOnline.Tests
         [InlineData(1000, new double[] {800, 900, 1000, 990 })]
         [InlineData(800, new double[] {800})]
 
-        public static void RetornaMaiorValorDadoLeilaoComPeloMenosUmLance(double valorEsperado, double[] valores)
+        public static void RetornaMaiorValorDadoLeilaoComPeloMenosUmLance(double valorEsperado, double[] ofertas)
         {
             //Arranje - cenário
             var leilao = new Leilao("Van Gogh");
             var fulano = new Interessada("Fulano", leilao);
             var maria = new Interessada("Maria", leilao);
 
-            foreach(var valor in valores)
+            leilao.IniciaPregao();
+
+            for (var i = 0; i < ofertas.Length; i++)
             {
-                leilao.RecebeLance(fulano, valor);
+                if (i % 2 == 0)
+                {
+                    leilao.RecebeLance(fulano, ofertas[i]);
+                }
+                else
+                {
+                    leilao.RecebeLance(maria, ofertas[i]);
+                }
             }
 
             //Act - método sob teste
@@ -38,10 +47,27 @@ namespace Alura.LeilaoOnline.Tests
         }
 
         [Fact]
+        public void LancaInvalidOperationExcepionDadoPregaoNaoIniciado()
+        {
+            //Arrange - cenário
+            var leilao = new Leilao("Van Gogh");
+
+            //Assert
+            var excecaoObtida = Assert.Throws<System.InvalidOperationException>(
+                //act
+                () => leilao.TerminaPregao()
+            );
+
+            var msgEsperada = "Não é possível terminar o pregão sem que ele tenha começado. Para isso, utilize o método IniciaPregao().";
+            Assert.Equal(msgEsperada, excecaoObtida.Message);
+        }
+
+        [Fact]
         public void RetornaZeroDadoLeilaoSemLances()
         {
             //Arranje - cenário
             var leilao = new Leilao("Van Gogh");
+            leilao.IniciaPregao();
 
             //act - método sob teste
             leilao.TerminaPregao();
