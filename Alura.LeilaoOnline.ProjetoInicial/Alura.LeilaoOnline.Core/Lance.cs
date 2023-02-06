@@ -7,6 +7,10 @@
 
         public Lance(Interessada cliente, double valor)
         {
+            if (valor < 0)
+            {
+                throw new System.ArgumentException("valor do lance deve ser igual ou mairo que zero");
+            }
             Cliente = cliente;
             Valor = valor;
         }
