@@ -1,4 +1,6 @@
-﻿namespace FilmesApi.Data.Dtos
+﻿using FilmesApi.Models;
+
+namespace FilmesApi.Data.Dtos
 {
     public class ReadSessaoDto
     {
